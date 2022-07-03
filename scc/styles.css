@@ -7,20 +7,20 @@
     --main-txt-cl:#212121;
     --secondary-cl: #757575;
     --accent-cl:#2196F3;
+    --btn-txt-cl:#ffffff;
 
     /* bg colors */
     --light-bg-cl: #E5E5E5;
+    --blond-bg-cl: #F5F4FA;
     --dark-bg-cl: #2F303A;
     
     /* other */
-
 
 }
 body{
     font-family: var(--main-font);
     color: var(--main-txt-cl);
 }
-
 
     /* reset styles */
 .link {
@@ -29,16 +29,16 @@ body{
 }
 
 .list {
-    list-style: none;
-
+    list-style: none; 
 }
 
-
-/* 
+    
+ /* 
 ==================
-header section
+     Header
 =================
-*/
+*/ 
+
 .logo {
     font-weight: 700;
     font-size: 26px;
@@ -80,6 +80,7 @@ header section
 }
 
 /* 
+     MAIN
 ==================
 Hero section
 =================
@@ -107,13 +108,9 @@ Hero section
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
-    line-height: calc(30 / 16);
-    /* display: flex; */
-    /* align-items: center;
-    text-align: center; */
+    line-height: calc(30 / 16);    
     letter-spacing: 0.06em;
-    color: #FFFFFF;
-    /* background-color: transparent; */
+    color: var(--btn-txt-cl);
     background-color: var(--accent-cl);
     cursor: pointer;
 }
@@ -151,7 +148,7 @@ Hero section
 =================
 */ 
 .team {
-    background-color: #F5F4FA;
+    background-color: var(--blond-bg-cl);
 }
 
 .team-title {
@@ -183,7 +180,7 @@ Hero section
 
 /* 
 ==================
- footer section
+ footer
 =================
 */ 
 .footer {
@@ -233,3 +230,55 @@ Hero section
     color: var(--accent-cl);
 }
 
+/* 
+==================
+==================
+ Portfolio page
+=================
+    Main section
+==================
+    fiters
+==================   
+*/
+
+.fl-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(26 / 16);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-txt-cl);
+    background: var(--blond-bg-cl);
+    cursor: pointer;
+}
+
+.fl-btn:hover,
+.fl-btn:focus {
+    color: var(--btn-txt-cl);
+    background-color: var(--accent-cl);    
+}
+
+
+/* 
+==================
+    projects
+=================
+*/ 
+.pf-list subtitle {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: calc(36 /18);
+    letter-spacing: 0.06em;
+    color: var(--main-txt-cl);
+}
+
+.pf-descript {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(30 / 16); 
+    letter-spacing: 0.03em; 
+    color: var(--secondary-cl);
+}
+
+ 
