@@ -40,6 +40,7 @@ body{
 */ 
 
 .logo {
+    font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 26px;
     line-height: calc(31 / 26);
@@ -135,12 +136,27 @@ Hero section
 }
  
 .features-descript {
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 14px;
     line-height: calc(24 / 14);
     letter-spacing: 0.03em; 
     color: var(--secondary-cl);
 }
+
+/* 
+==================
+ Affairs section
+=================
+*/ 
+.affairs-title {
+font-weight: 700;
+font-size: 36px;
+line-height: calc(42 / 36);
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--main-txt-cl);
+}
+   
 
 /* 
 ==================
@@ -160,7 +176,7 @@ Hero section
     color: var(--main-txt-cl);
 }
 
-.team-list subtitle {
+.team-list-subtitle {
     font-weight: 500;
     font-size: 16px;
     line-height: calc(19 / 16);
@@ -170,7 +186,7 @@ Hero section
 }
 
 .team-descript {
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 16px;
     line-height: calc(19 / 16);
     /* text-align: center; */
@@ -187,13 +203,13 @@ Hero section
     background-color: var(--dark-bg-cl);
 }
 
-.logo {
+/* .logo {
     font-weight: 700;
     font-size: 26px;
     line-height: cacl(31 / 26);
     letter-spacing: 0.03em;
     color: #2196F3;
-}
+} */
 
 .f-lg {
     color: #FFFFFF;
@@ -205,7 +221,7 @@ Hero section
 }
 
 .address-add {
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 14px;
     line-height:calc(24 / 14);
     letter-spacing: 0.03em;
@@ -214,7 +230,7 @@ Hero section
 
 .address-mail,
 .address-phone {
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 14px;
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
@@ -236,8 +252,10 @@ Hero section
  Portfolio page
 =================
     Main section
+================== 
+    Portfolio section
 ==================
-    fiters
+    fiters part
 ==================   
 */
 
@@ -262,10 +280,10 @@ Hero section
 
 /* 
 ==================
-    projects
+    projects part
 =================
 */ 
-.pf-list subtitle {
+.pf-list-subtitle {
     font-weight: 700;
     font-size: 18px;
     line-height: calc(36 /18);
@@ -274,7 +292,7 @@ Hero section
 }
 
 .pf-descript {
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 16px;
     line-height: calc(30 / 16); 
     letter-spacing: 0.03em; 
